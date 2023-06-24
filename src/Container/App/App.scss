@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex: 0 0 100%;
+}
+.container{
+   width: 1280px;
+   margin: 50px auto ;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:100px;
+}
+.text{
+    text-align: center;
+    margin: 0 auto;
+}
+.btn{
+    justify-content: center;
+    gap:10px
+}
+.titleAll {
+    // display: block;
+    overflow: hidden;
+    width: 90%;
+   
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.titleAll:hover{
+    text-overflow: initial;
+    overflow: auto;
+    white-space: wrap;
+    height: 70px;
+}
+.gap {
+    gap: 2%;
+    
+}
+.card{
+gap: 50px;
+    width: 410px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.container h3,h1{
+    font-weight: 700;
+}
