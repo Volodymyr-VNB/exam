@@ -6,7 +6,7 @@ import { AppContext } from 'Container/App/App'
 type Props = {
     id: number
 }
-let i = 0
+
 const Cart = ({ id }: Props) => {
     const data = useContext(AppContext)
 
